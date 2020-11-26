@@ -1,5 +1,5 @@
 {
-    "name": "twig/templating-utils",
+    "name": "palazzetti/twig-utils",
     "type": "library",
     "description": "A Twig extension used for palazzetti templating purposes",
     "keywords": ["twig", "palazzetti", "ultils"],
