@@ -1,0 +1,26 @@
+{
+    "name": "twig/templating-utils",
+    "type": "library",
+    "description": "A Twig extension used for palazzetti templating purposes",
+    "keywords": ["twig", "palazzetti", "ultils"],
+    "homepage": "https://twig.symfony.com",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Daniele Sarnari",
+            "email": "daniele.sarnari@palazzetti.it",
+            "homepage": "https://palazzetti.it",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "twig/twig": "^2.4|^3.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Twig\\Utils\\Templating\\" : "src/"
+        }
+    }
+}
