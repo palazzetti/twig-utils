@@ -20,6 +20,7 @@ class TextUtilsExtension extends AbstractExtension
     {
         return [
             new TwigFilter('ucfirst', 'Twig\\Utils\\Templating\\twig_text_ucfirst', ['is_safe' => ['all']]),
+            new TwigFilter('lcfirst', 'Twig\\Utils\\Templating\\twig_text_lcfirst', ['is_safe' => ['all']])
         ];
     }
 }
@@ -27,4 +28,9 @@ class TextUtilsExtension extends AbstractExtension
 function twig_text_ucfirst(string $text): string
 {
     return ucfirst($text);
+}
+
+function twig_text_lcfirst(string $text): string
+{
+    return lcfirst($text);
 }
